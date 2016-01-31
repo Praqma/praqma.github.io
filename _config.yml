@@ -1,0 +1,11 @@
+# Site settings
+title: Praqma Code
+tag_text: Welcome to code.praqma.com
+description: Related to code, documentation, task management ...the works
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+exclude: ["README.md"]
+sass:
+  style: compressed
