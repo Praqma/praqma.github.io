@@ -1,0 +1,19 @@
+{
+  "dayofdockerosl15": {
+    "target":"http://www.code-conf.com/day-of-docker-osl15/?src=mailbanner",
+    "graphic":"http://www.praqma.com/images/mailsignatures/dodosl15.png"
+  },
+  "codeuflow": {
+    "target":"http://www.josra.org/blog/An-automated-git-branching-strategy.html?src=mailbanner",
+    "graphic":"http://www.praqma.com/images/mailsignatures/codeu-git-flow.jpg"
+  },
+  "codeconf15": {
+    "target":"http://www.code-conf.com?src=mailbanner",
+    "graphic":"http://www.praqma.com/images/mailsignatures/code-conf-banner.png"
+  },
+  "dayofdocker_cph_sthlm_16": {
+    "target":"http://www.code-conf.com?src=mailbanner16",
+    "graphic":"http://www.praqma.com/images/mailsignatures/doc16_sthlm-cph_600x100.png"
+  }
+
+}
