@@ -12,12 +12,6 @@
     "cell":"+45 28 12 90 94",
     "skype":"adamhenriques"
   },
-  "ali": {
-    "name":"Waqar Ali Zaidi",
-    "mail":"ali@praqma.net",
-    "title":"Consultant",
-    "cell":"+45 42 79 77 45"
-  },
   "als": {
     "name":"Alexandra Sedova",
     "mail":"alexandra@praqma.com",
@@ -98,7 +92,7 @@
     "mail":"martin.amdisen@praqma.com",
     "title":"Consultant",
     "cell":"+45 29 33 69 26"
-  },  
+  },
   "man": {
     "name":"Mads Nielsen",
     "mail":"man@praqma.net",
@@ -141,5 +135,11 @@
     "mail":"tim@praqma.net",
     "title":"Consultant",
     "cell":"+45 42 74 15 34"
+  },
+  "tk": {
+    "name":"Timea Kiss",
+    "mail":"tk@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 25 66 83 44"
   }
 }
