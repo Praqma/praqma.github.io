@@ -12,7 +12,7 @@ The process is as follows:
 * Yopu'll be taken to a new page, showing your signature. Copy everything into the clip board: _Select all + copy_
 * Goto you [gmail](http://gmail.google.com){: target="\_blank"} and in _settings >> General >> Signature_  replace whatever is already there, with the content of your clipboard: _paste_.
 
-##Give it a spin: 
+## Give it a spin: 
 
 <script type="text/javascript" src="/javascripts/jquery-1.11.1.js"></script>
 
