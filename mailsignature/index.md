@@ -41,7 +41,7 @@ The mail signature creator is designed to generate some nice-looking html, which
   <div style="width: 140px;display: block;float: left;">&nbsp;</div><input type="submit" value="Submit">
 </form>
 
-## How do I do?
+## What do I do?
 
 * Create the mail signature you want to use, simply choose _employee_ and _banner_ in the form above.
 * You'll be taken to a new page, showing your signature. Copy everything into the clip board: _Select all + copy_
