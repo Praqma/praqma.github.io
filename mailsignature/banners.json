@@ -4,6 +4,21 @@
     "target":"http://www.josra.org/blog/An-automated-git-branching-strategy.html?src=mailbanner",
     "graphic":"http://www.praqma.com/images/mailsignatures/codeu-git-flow.jpg"
   },
+  "jenkinsjamcph": {
+    "title": "Jenkins JAM Copenhagen",
+    "target":"http://www.meetup.com/Jenkins-Copenhagen-JAM",
+    "graphic":"http://code.praqma.com/mailsignature/banners/jenkins-jam-mailbanner.600.png"
+    },
+  "dockeraarhus": {
+    "title": "Docker Meetup Aarhus",
+    "target":"http://www.meetup.com/Docker-Aarhus/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/docker-aarhus.600.jpeg"
+  },
+  "dockeroslo": {
+    "title": "Docker Meetup Oslo",
+    "target":"http://www.meetup.com/Docker-oslo/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/docker-oslo.600.jpeg"
+  },
   "doccphsthlm16": {
     "title": "Day of Containers - STHLM + CPH",
     "target": "http://www.code-conf.com?src=mailbanner16",
