@@ -19,6 +19,11 @@
     "target":"http://www.meetup.com/Docker-oslo/",
     "graphic":"http://code.praqma.com/mailsignature/banners/docker-oslo.600.jpeg"
   },
+  "codeusthlm": {
+    "title": "Continuous delivery Useres STHML",
+    "target":"hhttp://www.meetup.com/CoDe-U-STHLM/",
+    "graphic":"/mailsignature/banners/code-u.sthlm.600.jpeg"
+  },
   "doccphsthlm16": {
     "title": "Day of Containers - STHLM + CPH",
     "target": "http://www.code-conf.com?src=mailbanner16",
