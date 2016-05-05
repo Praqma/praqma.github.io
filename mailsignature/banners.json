@@ -1,4 +1,9 @@
 {
+  "codeacademy2016": {
+    "title": "CoDe Academy 2016 - All four",
+    "target":"http://www.code-conf.com/academy2016/?src=mailbanner",
+    "graphic":"http://www.praqma.com/images/mailsignatures/codeacademy2016-allfour.jpg"
+  },  
   "codeuflow": {
     "title": "The Josra Git Flow",
     "target":"http://www.josra.org/blog/An-automated-git-branching-strategy.html?src=mailbanner",
