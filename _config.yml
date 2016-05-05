@@ -5,7 +5,7 @@ description: Related to code, documentation, task management ...the works
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 exclude: ["README.md"]
 sass:
   style: compressed
