@@ -118,6 +118,12 @@
     "title":"Office Manager",
     "cell":"+45 40 51 50 59"
   },
+  "soa": {
+    "name":"Sofus Albertsen",
+    "mail":"sofus@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 40 87 87 01"
+  },
   "stl": {
     "name":"Sten Lusty",
     "mail":"stl@praqma.net",
