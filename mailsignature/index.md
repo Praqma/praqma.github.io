@@ -49,6 +49,6 @@ The mail signature creator is designed to generate some nice-looking html, which
 
 
 ## How to create new entries?
-Hack'em yourself: The valid entries for users are defined in the `JSON` file named [persons.json](https://github.com/Praqma/praqma.github.io/blob/master/mailsignature/persons.json) and the valid entries for banners are defined in the `JSON` file named [banners.json](https://github.com/Praqma/praqma.github.io/blob/master/mailsignature/banners.json). A note on JSON - It's not very forgivin': If you screw up the syntax in any of the two files, the signature creator stops working.
+Hack'em yourself: The valid entries for users are defined in the `JSON` file named [`persons.json`](https://github.com/Praqma/praqma.github.io/blob/master/mailsignature/persons.json) and the valid entries for banners are defined in the `JSON` file named [`banners.json`](https://github.com/Praqma/praqma.github.io/blob/master/mailsignature/banners.json). A note on JSON - It's not very forgivin': If you screw up the syntax in any of the two files, the signature creator stops working.
 
-In the `banner.json` you must specify as path to the `.png` it should be 600x75px or 600x100px and placed in the [`/mailsignature/banners`](https://github.com/Praqma/praqma.github.io/tree/master/mailsignature/banners) folder in the [`praqma/praqma.github.io`](https://github.com/Praqma/praqma.github.io) repo.
+In the `banner.json` you must specify as path to the image (`.png`, `.svg` or `.jpg`) it should be 600x75px or 600x100px and placed in the [`/mailsignature/banners`](https://github.com/Praqma/praqma.github.io/tree/master/mailsignature/banners) folder in the [`praqma/praqma.github.io`](https://github.com/Praqma/praqma.github.io) repo.
