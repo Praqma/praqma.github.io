@@ -106,6 +106,12 @@
     "cell":"+45 50 98 18 09",
     "skype":"inkspot"
   },
+  "man": {
+    "name":"Mads Baggesen",
+    "mail":"mba@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 24 62 54 47",
+    },
   "moc": {
     "name":"Morten Christensen",
     "mail":"morten@praqma.com",
@@ -126,7 +132,7 @@
   },
   "smh": {
     "name":"Smadar Hansen",
-    "mail":"smh@praqma.net",
+    "mail":"smh@praqma.com",
     "title":"Office Manager",
     "cell":"+45 40 51 50 59"
   },
@@ -138,19 +144,19 @@
   },
   "stl": {
     "name":"Sten Lusty",
-    "mail":"stl@praqma.net",
+    "mail":"stl@praqma.com",
     "title":"Facility management",
     "cell":"+45 27 41 43 11"
   },
   "thi": {
     "name":"Thierry Lacour",
-    "mail":"thi@praqma.net",
+    "mail":"thi@praqma.com",
     "title":"Consultant",
     "cell":"+45 36 77 27 62"
   },
   "tim": {
     "name":"Tim Harris",
-    "mail":"tim@praqma.net",
+    "mail":"tim@praqma.com",
     "title":"Consultant",
     "cell":"+45 42 74 15 34"
   },
