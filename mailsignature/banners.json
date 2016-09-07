@@ -33,6 +33,12 @@
     "title": "Day of Containers - STHLM + CPH",
     "target": "http://www.code-conf.com?src=mailbanner16",
     "graphic":"http://www.praqma.com/images/mailsignatures/doc16_sthlm-cph_600x100.png"
+  },
+  "codeconfcph16": {
+    "title": "CoDe Conf CPH",
+    "target": "http://www.code-conf.com/code-cph-2016/",
+    "graphic":"http://www.praqma.com/images/mailsignatures/code_cph_16_mail.jpg"
+    
   }
 
 }
