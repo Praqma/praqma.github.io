@@ -5,7 +5,7 @@ author: Lars Kruse
 organization: Praqma
 repo: praqma.github.io
 ---
-
+ 
 The mail signature creator is designed to generate some nice-looking html, which you can use as a mail signature in your gmail.
 {: .cuff}
 
