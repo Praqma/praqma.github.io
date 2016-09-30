@@ -3,7 +3,7 @@
     "title": "CoDe Academy 2016 - All four",
     "target":"http://www.code-conf.com/academy2016/?src=mailbanner",
     "graphic":"http://code.praqma.com/mailsignature/banners/codeacademy2016-allfour.jpg"
-  },  
+  },
   "codeuflow": {
     "title": "The Josra Git Flow",
     "target":"http://www.josra.org/blog/An-automated-git-branching-strategy.html?src=mailbanner",
@@ -38,6 +38,11 @@
     "title": "CoDe Conf CPH",
     "target": "http://www.code-conf.com/code-cph-2016/",
     "graphic":"http://code.praqma.com/mailsignature/banners/code_cph_16_mail.jpg"
+  },
+  "codeconfsthlm16": {
+    "title": "CoDe Conf STHLM",
+    "target": "http://www.code-conf.com/code-sthlm-2016/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/code_sthlm_16_mail.jpg"
   }
 
 }
