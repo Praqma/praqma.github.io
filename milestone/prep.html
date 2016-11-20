@@ -1,0 +1,58 @@
+
+<html>
+<head>
+  <script type="text/javascript" src="/javascripts/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="/javascripts/praqmajsutils.js"></script>
+  <script>
+    var handle=getParam ("handle");
+    var milestone=getParam("milestone");
+    var repo=getParam("repo");
+
+    function verify() {
+      if (handle == undefined | milestone == undefined | repo == undefined ){
+        var x = document.getElementById("agenda");
+        x.innerHTML= 'NO!';
+      }
+      else {
+        var x = document.getElementById("waffle");
+        x.href = 'https://waffle.io/'+repo+'?milestone='+htmlEncodeURL(milestone);
+        x.innerHTML = milestone;
+
+        var x = document.getElementById("nomilestone");
+        x.href = 'https://waffle.io/'+repo+'?milestone=none';
+
+        var x = document.getElementById("backlog");
+        x.href = 'https://waffle.io/'+repo+'?milestone=Backlog';
+
+        var x = document.getElementById("awaiting-feedback");
+        x.href = 'https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22action+-+awaiting+feed-back%22+assignee%3A'+handle
+
+        var x = document.getElementById("needs-grooming");
+        x.href = 'https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22action+-+needs+grooming%22+assignee%3A'+handle
+      }
+    }
+  </script>
+
+</head>
+
+<body onload="verify()">
+
+  <h2>Agenda</h2>
+  <div id="agenda">
+    <ol>
+      <li>We will evaluate the milestone named <a target="_blank" id="waffle"></a></li>
+      <li>We will got through <a target="_blank" id="nomilestone">issues with no milestones</a></li>
+      <li>We will create a new milestone based on issues on <a target="_blank" id="backlog">The backlog</a></li>
+    </ol>
+
+  <h2>Prepare</h2>
+  Please prepare yourself for this meeting by going through all issues assigned to you with labels:
+
+  <ul>
+    <li><a target="_blank" id="awaiting-feedback">Awaiting feedback</a></li>
+    <li><a target="_blank" id="needs-grooming">Needs groomingAwaiting feedback</a></li>
+
+  </div>
+
+</body>
+</html>

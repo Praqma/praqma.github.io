@@ -9,3 +9,11 @@ function getParam ( key )
   var obj = getParamAsObject();
   return eval('obj.'+key);
 }
+
+function htmlEncodeURL(str) {
+    return String(str).replace(/ /g, '%20');
+}
+
+function htmlDecodeURL(str) {
+    return String(str).replace(/%20/g, ' ');
+}
