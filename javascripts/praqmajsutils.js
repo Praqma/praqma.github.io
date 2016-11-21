@@ -11,9 +11,9 @@ function getParam ( key )
 }
 
 function htmlEncodeURL(str) {
-    return String(str).replace(/ /g, '%20');
+    return String(str).replace(/ /g, '%20').replace( /%2F/g, '/');
 }
 
 function htmlDecodeURL(str) {
-    return String(str).replace(/%20/g, ' ');
+    return String(str).replace(/%20/g, ' ').replace(/\+/g, ' ').replace(/%2F/g, '/' );
 }

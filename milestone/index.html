@@ -1,0 +1,123 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="/css/praqmacode.css">
+  <script type="text/javascript" src="/javascripts/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="/javascripts/praqmajsutils.js"></script>
+  <script>
+    var handle    = getParam ("handle");
+    var milestone = getParam("milestone");
+    var repo      = getParam("repo");
+
+
+
+    function loadForm(){
+      document.getElementById("milestone").value =
+        (milestone == undefined)?"":htmlDecodeURL(milestone);;
+      document.getElementById("handle").value =
+        (handle == undefined)?"":htmlDecodeURL(handle);
+      document.getElementById("repo").value =
+        (repo == undefined)?"":htmlDecodeURL(repo);
+    }
+
+    function generate() {
+
+      loadForm();
+
+
+      if (handle == "" | handle == undefined ){
+        document.getElementById("prepare").innerHTML = "<code>&lt;Nothing to show here - Type your handle above, and re-submit&gt;</code>";
+
+      } else {
+        document.getElementById("awaiting-feedback").href = 'https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22action+-+awaiting+feed-back%22+assignee%3A'+handle
+
+        document.getElementById("needs-grooming").href =  'https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22action+-+needs+grooming%22+assignee%3A'+handle
+      }
+
+      if ( milestone == "" | milestone == undefined | repo == "" | repo == undefined){
+        document.getElementById("agenda").innerHTML= "<code>&lt;Nothing to show here - Type both Repo and Milestone above and re-submit&gt;</code>";
+      }
+      else {
+        document.getElementById("milestone-name").innerHTML = htmlDecodeURL(milestone);
+
+        document.getElementById("milestone-waffle").href = 'https://waffle.io/'+htmlEncodeURL(repo)+'?milestone='+milestone;
+
+        document.getElementById("milestone-github").href =
+        'https://github.com/'+htmlEncodeURL(repo)+'/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20milestone%3A"'+milestone+'"'
+
+
+        document.getElementById("nomilestone-waffle").href = 'https://waffle.io/'+htmlEncodeURL(repo)+'?milestone=none';
+
+        document.getElementById("nomilestone-github").href =
+        'https://github.com/'+htmlEncodeURL(repo)+'/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20no%3Amilestone'
+
+        document.getElementById("backlog-waffle").href = 'https://waffle.io/'+htmlEncodeURL(repo)+'?milestone=Backlog';
+
+        document.getElementById("backlog-github").href =           'https://github.com/'+htmlEncodeURL(repo)+'/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20milestone%3A"'+"Backlog"+'"'
+
+      }
+    }
+  </script>
+
+</head>
+
+<body onload="generate()">
+  <div class="container">
+
+    <h1> Office Hours Agenda and Prep'in</h1>
+    <div class="cuff">
+      Use this page to generate the links you need to do efficient office hours based on GitHub Issues and milestones
+    </div>
+    <br/>
+
+  <form action="." method="get">
+    <div style="width: 140px;display: block;float: left;" title="The GitHub repository - this is CASE sensitive, so get it right!">Repo:</div>
+    <input id="repo" type="text" name="repo" style="width:250px;"></input>
+  <br>
+    <div style="width: 140px;display: block;float: left;" title="The mileston to end - this is CASE sensitive">Milestone:</div>
+    <input id="milestone" type="text" name="milestone" style="width:250px;"></input>
+  <br>
+  <div style="width: 140px;display: block;float: left;" title="Your GitHub handle - without the leading '@'">GitHub handle</div>
+  <input id="handle" type="text" name="handle" style="width:250px;"></input>
+<br/>
+    <div>&nbsp;</div>
+    <div style="width: 140px;display: block;float: left;">&nbsp;</div>
+    <input type="submit" value="Submit">
+  </form>
+
+  <h2>How?</h2>
+  <h3>Agenda:</h3>
+  <p>Fill in <strong>Repo</strong> and <strong>Milestone</strong> (the are both case sensitive) to get the links you need.</p>
+
+  <h3>Prep'in:</h3>
+  <p>Fill out your <strong>GitHub handle</strong> to get the links to your personal Action items.
+
+
+  <h2>Agenda</h2>
+
+  <div id="agenda">
+    <ol>
+      <li>We will evaluate the milestone named <span id="milestone-name" style="font-weight:bold;"></span><br/> <a target="_blank" id="milestone-waffle" class="waffle-link">Waffle</a> <a target="_blank" id="milestone-github" class="github-link">GitHub</a></li>
+      <li>We will got through <span style="font-weight:bold;">issues with no milestones.</span><br/><a target="_blank" id="nomilestone-waffle" class="waffle-link">Waffle</a> <a target="_blank" id="nomilestone-github" class="github-link" >GitHub</a></li>
+      <li>We will create a new milestone based on issues on <span style="font-weight:bold;">The Backlog</span><br/> <a id="backlog-waffle" target="_blank" class="waffle-link">Waffle</a> <a class="github-link" id="backlog-github" target="_blank">GitHub</a></li>
+    </ol>
+  </div>
+
+  <h2>Preparing yourself</h2>
+  <div id="prepare">
+
+  <p>Ideally <em>all issues on the milestone should be closed</em> prior to the Office Hour, so that time can be spent on retrospective and preparing the next milestone - instead of managing issues.</p>
+
+  <p>You might even consider <em>dealing with issues with no milestones</em> and <em>sort the backlog</em> (most pressing issues goes to the top) before the meeting starts</p>
+
+  <p>Also please prepare yourself for the Office Hours by going through all <em>issues assigned to you with Action labels</em>:</p>
+
+    <a class="github-link" target="_blank" id="awaiting-feedback"><img style="display:inline-block;height:32px" src="../images/waiting-for-feedback.png"/></a>
+
+    <a class="github-link" target="_blank" id="needs-grooming"><img style="display:inline-block;height:32px" src="../images/needs-grooming.png"/></a>
+  </div>
+
+</div>
+</body>
+
+</html>
