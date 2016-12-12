@@ -35,9 +35,29 @@
     "graphic":"http://www.praqma.com/images/mailsignatures/doc16_sthlm-cph_600x100.png"
   },
   "xmas1": {
-    "title": "X-mas",
+    "title": "X-mas Tree",
     "target": "http://www.praqma.com/xmas/",
-    "graphic":"http://code.praqma.com/mailsignature/banners/xmas/xmas_banner_1.gif"
+    "graphic":"http://code.praqma.com/mailsignature/banners/xmas/xmas-banner-1.gif"
+  },
+  "xmas2": {
+    "title": "X-mas Snowman",
+    "target": "http://www.praqma.com/xmas/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/xmas/xmas-banner-2.gif"
+  },
+  "xmas3": {
+    "title": "X-mas Bird",
+    "target": "http://www.praqma.com/xmas/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/xmas/xmas-banner-3.gif"
+  },
+  "xmas5": {
+    "title": "X-mas Bird+snowman",
+    "target": "http://www.praqma.com/xmas/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/xmas/xmas-banner-5.gif"
+  },
+  "xmasflow": {
+    "title": "X-mas Let It Flow",
+    "target": "http://www.praqma.com/xmas/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/xmas/xmas-banner-let-it-flow.gif"
   }
 
 }
