@@ -34,15 +34,10 @@
     "target": "http://www.code-conf.com?src=mailbanner16",
     "graphic":"http://www.praqma.com/images/mailsignatures/doc16_sthlm-cph_600x100.png"
   },
-  "codeconfcph16": {
-    "title": "CoDe Conf CPH",
-    "target": "http://www.code-conf.com/code-cph-2016/",
-    "graphic":"http://code.praqma.com/mailsignature/banners/code_cph_16_mail.jpg"
-  },
-  "codeconfsthlm16": {
-    "title": "CoDe Conf STHLM",
-    "target": "http://www.code-conf.com/code-sthlm-2016/",
-    "graphic":"http://code.praqma.com/mailsignature/banners/code_sthlm_16_mail.jpg"
+  "xmas1": {
+    "title": "X-mas",
+    "target": "http://www.praqma.com/xmas/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/xmas/xmas_banner_1.gif"
   }
 
 }
