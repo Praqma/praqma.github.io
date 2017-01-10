@@ -40,18 +40,12 @@
       else {
         document.getElementById("milestone-name").innerHTML = htmlDecodeURL(milestone);
 
-        document.getElementById("milestone-waffle").href = 'https://waffle.io/'+htmlEncodeURL(repo)+'?milestone='+milestone;
-
         document.getElementById("milestone-github").href =
         'https://github.com/'+htmlEncodeURL(repo)+'/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20milestone%3A"'+milestone+'"'
 
 
-        document.getElementById("nomilestone-waffle").href = 'https://waffle.io/'+htmlEncodeURL(repo)+'?milestone=none';
-
         document.getElementById("nomilestone-github").href =
         'https://github.com/'+htmlEncodeURL(repo)+'/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20no%3Amilestone'
-
-        document.getElementById("backlog-waffle").href = 'https://waffle.io/'+htmlEncodeURL(repo)+'?milestone=Backlog';
 
         document.getElementById("backlog-github").href =           'https://github.com/'+htmlEncodeURL(repo)+'/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20milestone%3A"'+"Backlog"+'"'
 
