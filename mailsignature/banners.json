@@ -58,6 +58,11 @@
     "title": "X-mas Let It Flow",
     "target": "http://www.praqma.com/xmas/",
     "graphic":"http://code.praqma.com/mailsignature/banners/xmas/xmas-banner-let-it-flow.gif"
+  },
+  "praqmaplain": {
+    "title": "Praqma plain",
+    "target": "http://www.praqma.com",
+    "graphic":"http://code.praqma.com/mailsignature/banners/praqma_plain_banner.jpg"
   }
 
 }
