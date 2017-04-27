@@ -12,17 +12,17 @@
     "cell":"+45 28 12 90 94",
     "skype":"adamhenriques"
   },
-    "alr": {
-    "name":"Albert Rigo",
-    "mail":"alr@praqma.net",
-    "title":"Consultant",
-    "cell":"+46 70 389 96 40"
-  },
    "alp": {
     "name":"Alexandros Papadopoulos",
     "mail":"alp@praqma.net",
     "title":"Consultant",
     "cell":"+45 91 94 30 98"
+  },
+    "alr": {
+    "name":"Albert Rigo",
+    "mail":"alr@praqma.net",
+    "title":"Consultant",
+    "cell":"+46 70 389 96 40"
   },
   "als": {
     "name":"Alexandra Sedova",
