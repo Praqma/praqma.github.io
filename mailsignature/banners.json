@@ -1,8 +1,8 @@
 {
   "dayofjenkinsgbg": {
-    "title": "Day of Jenkins Gothenburg",
+    "title": "Day of Jenkins Gbg",
     "target":"http://www.code-conf.com/doj/doj-gbg/",
-    "graphic":"http://code.praqma.com/mailsignature/banners/doj-gbg.jpg"
+    "graphic":"http://code.praqma.com/mailsignature/banners/doj_gbg.jpg"
   },
   "dayofjenkinsosl": {
     "title": "Day of Jenkins Oslo",
