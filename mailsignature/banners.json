@@ -1,4 +1,14 @@
 {
+  "dayofjenkinsgbg": {
+    "title": "Day of Jenkins Gothenburg",
+    "target":"http://www.code-conf.com/doj/doj-gbg/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/doj-gbg.jpg"
+  },
+  "dayofjenkinsosl": {
+    "title": "Day of Jenkins Oslo",
+    "target":"http://www.code-conf.com/doj/doj-osl/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/doj-osl.jpg"
+  },
   "embeddedday": {
     "title": "Embedded Day 2017 Oslo",
     "target":"http://www.code-conf.com/embedded-osl-2017/",
