@@ -1,6 +1,6 @@
 <script type="text/javascript" src="/javascripts/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="/javascripts/praqmajsutils.js"></script>
-
+<script src="https://use.fontawesome.com/b7fcee6475.js"></script>
 <script type="text/javascript">
 
  var user=getParam ("user");
@@ -13,8 +13,7 @@
        var person = persons[person];
        document.getElementById("name").innerHTML = person.name;
        document.getElementById("title").innerHTML = person.title;
-       document.getElementById("mail").innerHTML = person.mail;
-       document.getElementById("mail").href = 'mailto:'+person.mail;
+       document.getElementById("office").innerHTML = person.office;
        document.getElementById("cell").innerHTML = person.cell;
        document.getElementById("cell_ref").href = "tel:"+encodeURI(person.cell);
        if (typeof person.skype != 'undefined') { //Skype is optional - hence the fuzz
@@ -43,33 +42,44 @@
 
 </script>
 
-<div style="clear:both;width:600px;padding-top:15px;padding-bottom:15px;font-size:70%;font-family: Helvetica, Arial;color:#333333;font-size:small;">
+<div style="clear:both;width:600px;padding-top:15px;padding-bottom:15px;font-size:70%;font-family: Helvetica, Arial;color:#333333;font-size:small;margin-left: 20px;">
   <div style="font-size:85%">
     <div style="padding-bottom:10;padding-top:10;">
       <img alt="____________________________________________________________"
-        //src="http://www.praqma.com/images/praqma.hruler.png"
+        //src="http://www.praqma.com/images/praqma_logoCropd.png"
         style="width:259px;">
     </div>
 
-     <div style="float:left;width:158px;padding-right:15px;">
-      <span id="name" style="font-size:105%;font-weight:bold;">
-        Lars Kruse, M.Sc.
-      </span><br>
-        <span id="title">Partner &amp; Co-founder</span><br>
-        <a id="mail" href="mailto:lak@praqma.net" style="text-decoration:none;color:#333333;"
-        target="_blank">lak@praqma.net</a><br>
-        <a id="cell_ref" href="tel:+45%202087%202530" style="text-decoration:none;color:#333333;"><span id="cell">+45 20 87 25 30</span></a><br>
+     <div style="float:left;width:100%;padding-right:15px;">
+        <span id="name" style="font-size: 3em;font-weight:bold;">
+          Lars Kruse, M.Sc.
+        </span>
+        <br>
+        <span id="title" style="font-size:2em;font-weight:bold;color:orange;">Partner &amp; Co-founder</span>
+        <br>
+        <a id="cell_ref" href="tel:+45%202087%202530" style="text-decoration:none;color:#333333;font-size: 1.6em;"><span id="cell">+45 20 87 25 30</span></a>
+        <br>
         <span id="skype">Skype:lakruzz</span>
-    </div>
-    <div style="float:left;">
-      <span style="font-size:105%;font-weight:bold;">
-        Praqma<br>
-      </span>
-      <a href="http://www.praqma.com" style="text-decoration:none;color:#333333;" target="_blank">www.praqma.com</a><br/>
-         DK: CPH, Aarhus, Allerod<br/>
-         NO: OSL<br/>
-         SE: STHLM, GOT, MMA<br/>
-      <a id="cell_ref" href="tel:+4536772762" style="text-decoration:none;color:#333333;"><span title="+45 36 77 27 62">+45 36 PRAQMA</span></a>
+        <a href="http://www.praqma.com" style="text-decoration:none;color:#333333;font-size: 1.6em;font-weight: bold;" target="_blank">Praqma.com</a>
+        <br/>
+        <a id="office" href="http://www.praqma.com/about/offices/" style="color: orange; font-size: 1.6em; text-decoration: none; font-weight: bold;"> PlaceHolder Office </a>
+        <br>
+        <br>
+        <div id="linkedin" class="social">
+          <a id="linkedHREF" href="https://www.linkedin.com/company-beta/2026904/" target="_blank" style="text-decoration: none;color: black;font-size: 1.6em;font-weight: bold;">
+            <i class="fa fa-linkedin" style="border: orange;border-radius: 100%;background-color: orange;color: white;font-size: 12px;padding: 4px 4px 3px 4px;"></i>Praqma
+          </a>
+        </div>
+        <div id="twitter" class="social">
+          <a id="twitterHREF" href="https://twitter.com/Praqma" target="_blank" style="text-decoration: none;color: black;font-size: 1.6em;font-weight: bold;">
+            <i class="fa fa-twitter" style="border: orange;border-radius: 100%;background-color: orange;color: white;font-size: 12px;padding: 4px 4px 3px 4px;"></i>@Praqma
+          </a>
+        </div>
+        <div id="facebook" class="social">
+          <a id="facebookHREF" href="https://www.facebook.com/praqma.net/?fref=ts" target="_blank" style="text-decoration: none;color: black;font-size: 1.6em;font-weight: bold;">
+            <i class="fa fa-facebook" style="color: white;border: orange;border-radius: 100%;background-color: orange;padding: 4px 6px 2px 5px;font-size: 12px;"></i>Praqma.net
+          </a>
+        </div>
     </div>
   </div>
 </div>
@@ -77,3 +87,14 @@
   <a id="target" href="http://www.jcicph.dk" target="_blank"><img id="graphic" style="width:100%;padding-top:15px;" src="http://www.jcicph.dk/images/jcicph-codecamp-signature.png"></a>
 </div>
 <br/>
+ <style>
+    .social{
+      text-decoration: none;
+      float: left;
+      margin-right: 5%;
+      display: inline-block;
+    }
+    .fa{
+      vertical-align: text-top;
+    }
+ </style>
