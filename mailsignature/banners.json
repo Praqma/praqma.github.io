@@ -28,7 +28,7 @@
     "title": "Jenkins JAM Copenhagen",
     "target":"http://www.meetup.com/Jenkins-Copenhagen-JAM",
     "graphic":"http://code.praqma.com/mailsignature/banners/jenkins-jam-mailbanner.600.png"
-    },
+  },
   "dockeraarhus": {
     "title": "Docker Meetup Aarhus",
     "target":"http://www.meetup.com/Docker-Aarhus/",
