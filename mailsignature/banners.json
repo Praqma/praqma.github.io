@@ -1,4 +1,9 @@
 {
+  "codeacademy2017": {
+    "title": "CoDe Academy 2017",
+    "target":"http://www.code-conf.com/academy2017/",
+    "graphic":"http://code.praqma.com/mailsignature/banners/code-academy-17.jpg"
+  },
   "dayofjenkinsgbg": {
     "title": "Day of Jenkins Gbg",
     "target":"http://www.code-conf.com/doj/doj-gbg/",
@@ -8,11 +13,6 @@
     "title": "Day of Jenkins Oslo",
     "target":"http://www.code-conf.com/doj/doj-osl/",
     "graphic":"http://code.praqma.com/mailsignature/banners/doj-osl.jpg"
-  },
-  "embeddedday": {
-    "title": "Embedded Day 2017 Oslo",
-    "target":"http://www.code-conf.com/embedded-osl-2017/",
-    "graphic":"http://code.praqma.com/mailsignature/banners/embeddedday-osl.jpg"
   },
   "codeacademy2016": {
     "title": "CoDe Academy 2016 - All four",
