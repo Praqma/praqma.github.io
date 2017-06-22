@@ -1,4 +1,14 @@
 {
+  "codecph17": {
+    "title": "CoDe-CPH",
+    "target": "http://www.code-conf.com/code-conf-17/cph/",
+    "graphic":"http://www.praqma.com/images/mailsignatures/code-cph-17.jpg"
+  },
+  "codesthlm17": {
+    "title": "CoDe-STHLM",
+    "target": "http://www.code-conf.com/code-conf-17/sthlm/",
+    "graphic":"http://www.praqma.com/images/mailsignatures/code-sthlm-17.jpg"
+  },
   "codeacademy2017": {
     "title": "CoDe Academy 2017",
     "target":"http://www.code-conf.com/academy2017/",
@@ -43,11 +53,6 @@
     "title": "Continuous delivery Useres STHML",
     "target":"hhttp://www.meetup.com/CoDe-U-STHLM/",
     "graphic":"/mailsignature/banners/code-u.sthlm.600.jpeg"
-  },
-  "doccphsthlm16": {
-    "title": "Day of Containers - STHLM + CPH",
-    "target": "http://www.code-conf.com?src=mailbanner16",
-    "graphic":"http://www.praqma.com/images/mailsignatures/doc16_sthlm-cph_600x100.png"
   },
   "xmas1": {
     "title": "X-mas Tree",
