@@ -5,7 +5,7 @@
 
  var user=getParam ("user");
  var banner=getParam("banner");
-
+ var skypevar = false;
  $.getJSON('./persons.json', function(persons) {
    /*console.log(persons); // this will show the info it in firebug console */
    for (var person in persons) {
@@ -20,6 +20,7 @@
          document.getElementById("skype").innerHTML = 'Skype: '+person.skype;
        }
        else {
+         skypevar = true;
          document.getElementById("skype").innerHTML = '';
        }
        /*alert(JSON.stringify(person));*/
@@ -65,19 +66,19 @@
         <a id="office" href="http://www.praqma.com/about/offices/" style="color: orange; font-size: 1em; text-decoration: none; font-weight: bold;"> PlaceHolder Office </a>
         <br>
         <br>
-        <div id="linkedin" style="text-decoration: none;float: left;margin-right: 5%;display: inline-block;">
+        <div id="linkedin" style="text-decoration: none;float: left;margin-right: 2%;display: inline-block;">
           <a id="linkedHREF" href="https://www.linkedin.com/company-beta/2026904/" target="_blank" style="text-decoration: none;color: black;font-size: 1.2em;font-weight: bold;">
-            <img src="/images/Linkdn.png" style="width:12px;height:12px;padding-right:2px;"></img>Praqma
+            <img src="/images/Linkdn.png" style="width:18px;padding-right:2px;"></img>
           </a>
         </div>
-        <div id="twitter" style="text-decoration: none;float: left;margin-right: 5%;display: inline-block;">
+        <div id="twitter" style="text-decoration: none;float: left;margin-right: 2%;display: inline-block;">
           <a id="twitterHREF" href="https://twitter.com/Praqma" target="_blank" style="text-decoration: none;color: black;font-size: 1.2em;font-weight: bold;">
-            <img src="/images/Twitter.png" style="width:12px;height:12px;padding-right:2px;"></img>@Praqma
+            <img src="/images/Twitter.png" style="width:18px;padding-right:2px;"></img>
           </a>
         </div>
-        <div id="facebook" style="text-decoration: none;float: left;margin-right: 5%;display: inline-block;">
+        <div id="facebook" style="text-decoration: none;float: left;margin-right:2%;display: inline-block;">
           <a id="facebookHREF" href="https://www.facebook.com/praqma.net/?fref=ts" target="_blank" style="text-decoration: none;color: black;font-size: 1.2em;font-weight: bold;">
-            <img src="/images/FB.png" style="width:12px;height:12px;padding-right:2px;"></img>Praqma.net
+            <img src="/images/FB.png" style="width:18px;padding-right:2px;"></img>
           </a>
         </div>
     </div>
