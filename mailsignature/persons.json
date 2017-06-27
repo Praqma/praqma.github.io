@@ -318,5 +318,12 @@
     "title":"Consultant",
     "cell":"+45 25 66 83 44",
     "office":"Praqma Copenhagen"
+  },
+  "saa": {
+    "name":"Sami Alajrami",
+    "mail":"sami@praqma.com",
+    "title":"DevOps Consultant",
+    "cell":"+47 46 37 75 71",
+    "office":"Praqma Oslo"
   }
 }
